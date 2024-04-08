@@ -1,0 +1,18 @@
+site_name: سامانه ERP شرکت نفت و گاز پارس
+dev_addr: '127.0.0.1:8001'
+
+theme:
+  name: "material"
+  language: 'fa'
+  direction: 'rtl'
+
+extra_css:
+  - css/font.css
+
+plugins:
+  - search
+
+nav:
+  - فهرست: index.md
+  - برنامه ها: reference.md
+ 

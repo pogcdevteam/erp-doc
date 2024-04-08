@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  mkdocs:
+    image: ghcr.io/peaceiris/mkdocs-material:v3.5.3
+    container_name: erp-docs
+    ports:
+      - 8001:8001
+    volumes:
+      - ${PWD}:/root
+    stdin_open: true
+    tty: true
+    command:
+      - "mkdocs"
+      - "serve"
+      - "--dev-addr=0.0.0.0:8001"
+      - "--config-file"
+      - "./mkdocs.yml"

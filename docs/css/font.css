@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(./webfonts/Vazirmatn-Regular.woff2) format('woff2');
+  font-weight: normal; 
+}
+/*
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(./webfonts/Vazirmatn-Bold.woff2) format('woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url(./webfonts/Vazirmatn-ExtraBold.woff2) format('woff2');
+  font-weight: bolder;
+}
+*/
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Vazirmatn', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+select {
+  font-family: -apple-system, BlinkMacSystemFont, 'Vazirmatn', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif !important;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Vazirmatn', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.persian-font {
+  font-family: -apple-system, BlinkMacSystemFont, 'Vazirmatn', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
