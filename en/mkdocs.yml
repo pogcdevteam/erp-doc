@@ -1,0 +1,52 @@
+site_name: ERP System Documentation
+dev_addr: '127.0.0.1:8001/en'
+repo_url: https://github.com/pogcdevteam/erp
+repo_name: pogcdevteam/erp
+remote_branch: main
+
+theme:
+  name: 'material'
+  language: 'en'
+  direction: 'ltr'
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - css/font.css
+
+plugins:
+  - search
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+
+    - name: فارسی
+      link: /fa/
+      lang: fa
+
+nav:
+  - index: index.md
+  - Frontend:
+    - Datatable: frontend/datatable.md
+    - Modal: frontend/modal.md
+    - Themes: frontend/theme.md
+  - Backend: index.md
+  - Applications:
+    - Index: index.md
+    - HRMS:
+      - Attendance: index.md
+    - Sourcing: index.md
+    - Authentication: index.md
