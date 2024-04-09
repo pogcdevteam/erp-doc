@@ -1,5 +1,5 @@
 site_name: ERP System Documentation
-dev_addr: '127.0.0.1:8001/en'
+dev_addr: '127.0.0.1:8001'
 repo_url: https://github.com/pogcdevteam/erp
 repo_name: pogcdevteam/erp
 remote_branch: main
