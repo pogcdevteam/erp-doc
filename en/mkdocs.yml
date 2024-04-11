@@ -27,6 +27,11 @@ extra_css:
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 extra:
   alternate:
     - name: English
@@ -38,15 +43,16 @@ extra:
       lang: fa
 
 nav:
-  - index: index.md
+  - Home: index.md
+  - Version Control:
+    - Git:
+      - Branch Naming Convention: git/branch.md 
   - Frontend:
     - Datatable: frontend/datatable.md
     - Modal: frontend/modal.md
-    - Themes: frontend/theme.md
-  - Backend: index.md
+    - Themes: frontend/themes.md
+  - Backend: backend.md
   - Applications:
-    - Index: index.md
     - HRMS:
-      - Attendance: index.md
-    - Sourcing: index.md
-    - Authentication: index.md
+      - Folder Structure: apps/hrms/structure.md
+      - Attendance: apps/hrms/attendance.md
