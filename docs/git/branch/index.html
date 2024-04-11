@@ -13,7 +13,7 @@
     
     
       
-        <title>Datatable - ERP System Documentation</title>
+        <title>Branch Naming Convention - ERP System Documentation</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#implementation" class="md-skip">
+        <a href="#branching" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Datatable
+              Branch Naming Convention
             
           </span>
         </div>
@@ -269,12 +269,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -295,12 +297,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
       
       
       
@@ -321,11 +325,132 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../git/branch/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Branch Naming Convention
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Branch Naming Convention
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#quick-legend" class="md-nav__link">
+    Quick Legend
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-branches" class="md-nav__link">
+    Main Branches
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#supporting-branches" class="md-nav__link">
+    Supporting Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Supporting Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#feature-branches" class="md-nav__link">
+    Feature Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Feature Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-with-a-feature-branch" class="md-nav__link">
+    Working with a feature branch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bug-branches" class="md-nav__link">
+    Bug Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Bug Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-with-a-bug-branch" class="md-nav__link">
+    Working with a bug branch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hotfix-branches" class="md-nav__link">
+    Hotfix Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Hotfix Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-with-a-hotfix-branch" class="md-nav__link">
+    Working with a hotfix branch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -350,14 +475,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
@@ -378,62 +501,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Datatable
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../frontend/datatable/" class="md-nav__link">
         Datatable
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#implementation" class="md-nav__link">
-    Implementation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#export-buttons" class="md-nav__link">
-    Export Buttons
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#static-files" class="md-nav__link">
-    Static Files
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -445,7 +517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../modal/" class="md-nav__link">
+      <a href="../../frontend/modal/" class="md-nav__link">
         Modal
       </a>
     </li>
@@ -459,7 +531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../themes/" class="md-nav__link">
+      <a href="../../frontend/themes/" class="md-nav__link">
         Themes
       </a>
     </li>
@@ -600,6 +672,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -608,23 +682,89 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#implementation" class="md-nav__link">
-    Implementation
+  <a href="#quick-legend" class="md-nav__link">
+    Quick Legend
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#export-buttons" class="md-nav__link">
-    Export Buttons
+  <a href="#main-branches" class="md-nav__link">
+    Main Branches
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#static-files" class="md-nav__link">
-    Static Files
+  <a href="#supporting-branches" class="md-nav__link">
+    Supporting Branches
   </a>
+  
+    <nav class="md-nav" aria-label="Supporting Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#feature-branches" class="md-nav__link">
+    Feature Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Feature Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-with-a-feature-branch" class="md-nav__link">
+    Working with a feature branch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bug-branches" class="md-nav__link">
+    Bug Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Bug Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-with-a-bug-branch" class="md-nav__link">
+    Working with a bug branch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hotfix-branches" class="md-nav__link">
+    Hotfix Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Hotfix Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#working-with-a-hotfix-branch" class="md-nav__link">
+    Working with a hotfix branch
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -640,25 +780,139 @@
             <article class="md-content__inner md-typeset">
               
                 
-  <a href="https://github.com/pogcdevteam/erp/edit/master/docs/frontend/datatable.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/pogcdevteam/erp/edit/master/docs/git/branch.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-  <h1>Datatable</h1>
+<h1 id="branching">Branching</h1>
+<h2 id="quick-legend">Quick Legend</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Instance</th>
+      <th>Branch</th>
+      <th>Description, Instructions, Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stable</td>
+      <td>stable</td>
+      <td>Accepts merges from Working and Hotfixes</td>
+    </tr>
+    <tr>
+      <td>Working</td>
+      <td>main</td>
+      <td>Accepts merges from Features/Issues and Hotfixes</td>
+    </tr>
+    <tr>
+      <td>Features/Issues</td>
+      <td>topic-*</td>
+      <td>Always branch off HEAD of Working</td>
+    </tr>
+    <tr>
+      <td>Hotfix</td>
+      <td>hotfix-*</td>
+      <td>Always branch off Stable</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Datatable component has been used in the project in multiple places where we need to render a nice and responsive table for users with search and export options.</p>
-<p>You can visit website for more information about use cases: <a href="https://datatables.net/"><strong>Datatable</strong></a></p>
-<h6 id="implementation">Implementation</h6>
-<p>In order to render datatable for html tables you need to set id attribute of that table tag to "dataTable".</p>
-<pre><code>&lt;table id="dataTable"&gt;
-&lt;/table&gt;
-</code></pre>
-<h6 id="export-buttons">Export Buttons</h6>
-<p>Export and print options enabled for end user. User can export data to excel and csv files and also is able to print the whole table at once.</p>
-<h6 id="static-files">Static Files</h6>
-<p>Databale static files are stored in datatable directory.</p>
+<h2 id="main-branches">Main Branches</h2>
+<p>The main repository will always hold two evergreen branches:</p>
+<ul>
+<li><code>main</code></li>
+<li><code>stable</code></li>
+</ul>
+<p>The main branch should be considered <code>origin/main</code> and will be the main branch where the source code of <code>HEAD</code> always reflects a state with the latest delivered development changes for the next release. As a developer, you will be branching and merging from <code>main</code>.</p>
+<p>Consider <code>origin/stable</code> to always represent the latest code deployed to production. During day to day development, the <code>stable</code> branch will not be interacted with.</p>
+<p>When the source code in the <code>main</code> branch is stable and has been deployed, all of the changes will be merged into <code>stable</code> and tagged with a release number. <em>How this is done in detail will be discussed later.</em></p>
+<h2 id="supporting-branches">Supporting Branches</h2>
+<p>Supporting branches are used to aid parallel development between team members, ease tracking of features, and to assist in quickly fixing live production problems. Unlike the main branches, these branches always have a limited life time, since they will be removed eventually.</p>
+<p>The different types of branches we may use are:</p>
+<ul>
+<li>Feature branches</li>
+<li>Bug/Fix branches</li>
+<li>Hotfix branches</li>
+</ul>
+<p>Each of these branches have a specific purpose and are bound to strict rules as to which branches may be their originating branch and which branches must be their merge targets. Each branch and its usage is explained below.</p>
+<h3 id="feature-branches">Feature Branches</h3>
+<p>Feature branches are used when developing a new feature or enhancement which has the potential of a development lifespan longer than a single deployment. When starting development, the deployment in which this feature will be released may not be known. No matter when the feature branch will be finished, it will always be merged back into the main branch.</p>
+<p>During the lifespan of the feature development, the lead should watch the <code>main</code> branch (network tool or branch tool in GitHub) to see if there have been commits since the feature was branched. Any and all changes to <code>main</code> should be merged into the feature before merging back to <code>main</code>; this can be done at various times during the project or at the end, but time to handle merge conflicts should be accounted for.</p>
+<p><code>&lt;tbd number&gt;</code> represents the project to which Project Management will be tracked.</p>
+<ul>
+<li>Must branch from: <code>main</code></li>
+<li>Must merge back into: <code>main</code></li>
+<li>Branch naming convention: <code>feature-&lt;tbd number&gt;</code></li>
+</ul>
+<h4 id="working-with-a-feature-branch">Working with a feature branch</h4>
+<p>If the branch does not exist yet (check with the Lead), create the branch locally and then push to GitHub. A feature branch should always be 'publicly' available. That is, development should never exist in just one developer's local branch.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout -b feature-id main                 // creates a local branch for the new feature
+$ git push origin feature-id                        // makes the new feature remotely available
+</code></pre></div>
+<p>Periodically, changes made to <code>main</code> (if any) should be merged back into your feature branch.</p>
+<div class="highlight"><pre><span></span><code>$ git merge main                                  // merges changes from main into feature branch
+</code></pre></div>
+<p>When development on the feature is complete, the lead (or engineer in charge) should merge changes into <code>main</code> and then make sure the remote branch is deleted.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout main                               // change to the main branch  
+$ git merge --no-ff feature-id                      // makes sure to create a commit object during merge
+$ git push origin main                            // push merge changes
+$ git push origin :feature-id                       // deletes the remote branch
+</code></pre></div>
+<h3 id="bug-branches">Bug Branches</h3>
+<p>Bug branches differ from feature branches only semantically. Bug branches will be created when there is a bug on the live site that should be fixed and merged into the next deployment. For that reason, a bug branch typically will not last longer than one deployment cycle. Additionally, bug branches are used to explicitly track the difference between bug development and feature development. No matter when the bug branch will be finished, it will always be merged back into <code>main</code>.</p>
+<p>Although likelihood will be less, during the lifespan of the bug development, the lead should watch the <code>main</code> branch (network tool or branch tool in GitHub) to see if there have been commits since the bug was branched. Any and all changes to <code>main</code> should be merged into the bug before merging back to <code>main</code>; this can be done at various times during the project or at the end, but time to handle merge conflicts should be accounted for.</p>
+<p><code>&lt;tbd number&gt;</code> represents the Basecamp project to which Project Management will be tracked. </p>
+<ul>
+<li>Must branch from: <code>main</code></li>
+<li>Must merge back into: <code>main</code></li>
+<li>Branch naming convention: <code>bug-&lt;tbd number&gt;</code></li>
+</ul>
+<h4 id="working-with-a-bug-branch">Working with a bug branch</h4>
+<p>If the branch does not exist yet (check with the Lead), create the branch locally and then push to GitHub. A bug branch should always be 'publicly' available. That is, development should never exist in just one developer's local branch.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout -b bug-id main                     // creates a local branch for the new bug
+$ git push origin bug-id                            // makes the new bug remotely available
+</code></pre></div>
+<p>Periodically, changes made to <code>main</code> (if any) should be merged back into your bug branch.</p>
+<div class="highlight"><pre><span></span><code>$ git merge main                                  // merges changes from main into bug branch
+</code></pre></div>
+<p>When development on the bug is complete, [the Lead] should merge changes into <code>main</code> and then make sure the remote branch is deleted.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout main                               // change to the main branch  
+$ git merge --no-ff bug-id                          // makes sure to create a commit object during merge
+$ git push origin main                            // push merge changes
+$ git push origin :bug-id                           // deletes the remote branch
+</code></pre></div>
+<h3 id="hotfix-branches">Hotfix Branches</h3>
+<p>A hotfix branch comes from the need to act immediately upon an undesired state of a live production version. Additionally, because of the urgency, a hotfix is not required to be be pushed during a scheduled deployment. Due to these requirements, a hotfix branch is always branched from a tagged <code>stable</code> branch. This is done for two reasons:</p>
+<ul>
+<li>Development on the <code>main</code> branch can continue while the hotfix is being addressed.</li>
+<li>A tagged <code>stable</code> branch still represents what is in production. At the point in time where a hotfix is needed, there could have been multiple commits to <code>main</code> which would then no longer represent production.</li>
+</ul>
+<p><code>&lt;tbd number&gt;</code> represents the Basecamp project to which Project Management will be tracked. </p>
+<ul>
+<li>Must branch from: tagged <code>stable</code></li>
+<li>Must merge back into: <code>main</code> and <code>stable</code></li>
+<li>Branch naming convention: <code>hotfix-&lt;tbd number&gt;</code></li>
+</ul>
+<h4 id="working-with-a-hotfix-branch">Working with a hotfix branch</h4>
+<p>If the branch does not exist yet (check with the Lead), create the branch locally and then push to GitHub. A hotfix branch should always be 'publicly' available. That is, development should never exist in just one developer's local branch.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout -b hotfix-id stable                  // creates a local branch for the new hotfix
+$ git push origin hotfix-id                         // makes the new hotfix remotely available
+</code></pre></div>
+<p>When development on the hotfix is complete, [the Lead] should merge changes into <code>stable</code> and then update the tag.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout stable                               // change to the stable branch
+$ git merge --no-ff hotfix-id                       // forces creation of commit object during merge
+$ git tag -a &lt;tag&gt;                                  // tags the fix
+$ git push origin stable --tags                     // push tag changes
+</code></pre></div>
+<p>Merge changes into <code>main</code> so not to lose the hotfix and then delete the remote hotfix branch.</p>
+<div class="highlight"><pre><span></span><code>$ git checkout main                               // change to the main branch
+$ git merge --no-ff hotfix-id                       // forces creation of commit object during merge
+$ git push origin main                            // push merge changes
+$ git push origin :hotfix-id                        // deletes the remote branch
+</code></pre></div>
 
               
             </article>
@@ -672,7 +926,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../git/branch/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Branch Naming Convention" rel="prev">
+        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -681,20 +935,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Branch Naming Convention
+              Home
             </div>
           </div>
         </a>
       
       
         
-        <a href="../modal/" class="md-footer__link md-footer__link--next" aria-label="Next: Modal" rel="next">
+        <a href="../../frontend/datatable/" class="md-footer__link md-footer__link--next" aria-label="Next: Datatable" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Modal
+              Datatable
             </div>
           </div>
           <div class="md-footer__button md-icon">
